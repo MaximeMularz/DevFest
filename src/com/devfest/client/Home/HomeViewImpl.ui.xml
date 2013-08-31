@@ -1,0 +1,58 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:b="urn:import:com.github.gwtbootstrap.client.ui">
+	<g:FlowPanel>
+
+		<b:ResponsiveNavbar position="TOP" scrollspy="false"
+			inverse="true">
+			<b:Brand>DevFest GDG Hi-Pic</b:Brand>
+			<b:Nav>
+				<b:NavLink ui:field="home">Accueil</b:NavLink>
+				<b:NavLink ui:field="inscription">Inscription</b:NavLink>
+				<b:NavLink ui:field="speakers">Speakers</b:NavLink>
+				<b:NavLink ui:field="sponsors">Sponsors</b:NavLink>
+				<b:NavLink ui:field="pratique">Pratique</b:NavLink>
+				<b:NavLink ui:field="presse">Presse</b:NavLink>
+			</b:Nav>
+		</b:ResponsiveNavbar>
+
+		<b:Hero>
+			<b:Row>
+				<b:Column size="8">
+					<g:HTMLPanel>
+						<b:Image url="http://placehold.it/500x300.png" />
+					</g:HTMLPanel>
+				</b:Column>
+				<b:Column size="3">
+					<g:HTMLPanel>
+						<div class="fb-like" data-href="http://gdg-hi-pic.appspot.com"
+							data-send="false" data-layout="button_count" data-width="100"
+							data-show-faces="true" />
+					</g:HTMLPanel>
+					<g:HTMLPanel>
+						<a href="https://twitter.com/share" class="twitter-share-button"
+							data-text="DevFest GDG Hi-Pic @ Valenciennes" data-url="http://gdg-hi-pic.appspot.com"
+							data-hashtags="gwt">Tweet</a>
+					</g:HTMLPanel>
+					<g:HTMLPanel>
+						<div class="g-plusone" data-annotation="none" data-width="100"
+							data-href="http://gdg-hi-pic.appspot.com" />
+					</g:HTMLPanel>
+
+				</b:Column>
+
+
+
+
+
+
+
+				<!-- <b:Heading size="2">DevFest Hi Pic @ Valenciennes</b:Heading> -->
+				<!-- <b:Paragraph>Vendredi 18 Octobre 2013</b:Paragraph> -->
+			</b:Row>
+		</b:Hero>
+
+
+
+	</g:FlowPanel>
+</ui:UiBinder> 
